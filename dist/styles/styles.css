@@ -1,0 +1,34 @@
+/* body {
+    margin: 0;
+}
+
+#content {
+    width: 100vw;
+    height: 100vh;
+}
+
+#landingPage {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/arabica-website.jpg'); 
+    background-size: cover;
+} */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#content {
+    height: 100%;
+}
+
+#landingPage { 
+    background: url('./images/arabica-website\ \(2\).jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+  
