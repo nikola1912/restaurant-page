@@ -18,6 +18,7 @@
 }
 
 body, html {
+    background-color: wheat;
     height: 100%;
     margin: 0;
 }
@@ -76,7 +77,7 @@ body, html {
 #scrollDown:before {
     position: absolute;
     top: calc(50% - 9px);
-    left: calc(50% - 7px);
+    left: calc(50% - 7.5px);
     transform: rotate(-45deg);
     display: block;
     width: 12px;
