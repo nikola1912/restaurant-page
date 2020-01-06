@@ -108,3 +108,44 @@ body, html {
       transform: translateY(-5px);
     }
 }
+
+#information {
+    margin: 60px 160px;
+}
+
+#informationTabs {
+    display: flex;
+}
+
+#informationContent {
+    background-color: rgb(255, 251, 245);
+    padding: 35px;
+}
+
+.tab {
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    color: rgb(75, 64, 43);
+    background-color: rgb(245, 199, 115);
+    padding: 13px;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: rgb(245, 210, 145);   
+}
+
+.tab:focus {
+    outline: 0;
+}
+
+.selectedTab {
+    background-color: rgb(255, 251, 245);
+    transition: none;
+}
+
+.selectedTab:hover {
+    background-color: rgb(255, 251, 245);
+}
+
