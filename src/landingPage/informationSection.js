@@ -1,4 +1,5 @@
 import aboutContent from "../tabs/aboutTab.js";
+import menuContent from "../tabs/menuTab.js";
 
 const informationSection = () => {
 
@@ -18,8 +19,8 @@ const informationSection = () => {
     menuTab.id    = "menuTab";
     contactTab.id = "contactTab";  
 
-    aboutTab.className   = "tab selectedTab";
-    menuTab.className    = "tab";
+    aboutTab.className   = "tab";
+    menuTab.className    = "tab selectedTab";
     contactTab.className = "tab";
 
     aboutTab.textContent   = "ABOUT";
@@ -30,8 +31,8 @@ const informationSection = () => {
     informationTabs.appendChild(menuTab);
     informationTabs.appendChild(contactTab);
 
-    informationContent.appendChild(aboutContent());
-    
+    informationContent.appendChild(menuContent());
+
     informationDiv.appendChild(informationTabs);
     informationDiv.appendChild(informationContent);
     
