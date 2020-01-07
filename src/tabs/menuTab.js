@@ -15,7 +15,6 @@ const menuContent = () => {
             const foodPrice       = menu[foodType][food].price;
             const foodDescription = menu[foodType][food].description;
             const foodImagePath   = menu[foodType][food].image;
-            //const foodImagePath   = './styles/images/food/placeholder.jpg';
             
             const foodContainer            = document.createElement("div");
             const foodNameContainer        = document.createElement("div");
@@ -45,7 +44,6 @@ const menuContent = () => {
             foodContainer.appendChild(foodPriceContainer);
             
             foodTypeContainer.appendChild(foodContainer);
-            console.log(menu[foodType][food].name);
         });
 
         const lineSeperator = document.createElement("div");
@@ -54,8 +52,6 @@ const menuContent = () => {
         menuContent.appendChild(foodTypeContainer);
         menuContent.appendChild(lineSeperator);
     });
-
-    //menuContent.innerHTML = "BBBBBBBBBB";
 
     return menuContent;
 };
