@@ -1,24 +1,9 @@
-/* body {
-    margin: 0;
-}
-
-#content {
-    width: 100vw;
-    height: 100vh;
-}
-
-#landingPage {
-    width: 100%;
-    height: 100%;
-    background-image: url('images/arabica-website.jpg'); 
-    background-size: cover;
-} */
 * {
     font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body, html {
-    background-color: wheat;
+    background-color: rgb(241, 241, 241);
     height: 100%;
     margin: 0;
 }
@@ -119,21 +104,22 @@ body, html {
 
 #informationContent {
     background-color: rgb(255, 251, 245);
+    box-shadow: 0px 0px 20px 13px rgb(226, 226, 226);
     padding: 35px;
 }
 
 .tab {
     font-size: 1.2em;
+    font-weight: bold;
     border: none;
     cursor: pointer;
-    color: rgb(75, 64, 43);
-    background-color: rgb(245, 199, 115);
+    background-color: rgb(230, 230, 230);
     padding: 13px;
     transition: background-color 0.3s;
 }
 
 .tab:hover {
-    background-color: rgb(245, 210, 145);   
+    background-color: rgb(240, 239, 239);
 }
 
 .tab:focus {
@@ -149,3 +135,57 @@ body, html {
     background-color: rgb(255, 251, 245);
 }
 
+.lineSeperator {
+    background-color: black;
+    height: 2px;
+}
+
+.foodTypeContainer {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template: auto / repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.foodContainer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 13px 7px rgba(242,242,242,1);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foodContainer * {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+}
+
+.foodContainer div {
+    text-align: center;
+}
+
+.foodNameContainer {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.foodDescriptionContainer {
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+.foodPriceContainer {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.foodImageContainer {
+    padding: 10px;
+}
+
+.foodImage {
+    max-width: 100%;
+    max-height: auto;
+}
