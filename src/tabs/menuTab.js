@@ -50,7 +50,7 @@ const menuContent = () => {
         lineSeperator.classList.add("lineSeperator");
 
         menuContent.appendChild(foodTypeContainer);
-        menuContent.appendChild(lineSeperator);
+        //menuContent.appendChild(lineSeperator);
     });
 
     return menuContent;

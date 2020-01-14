@@ -31,7 +31,7 @@ const informationSection = () => {
     informationTabs.appendChild(menuTab);
     informationTabs.appendChild(contactTab);
 
-    informationContent.appendChild(menuContent());
+    informationContent.appendChild(aboutContent());
 
     informationDiv.appendChild(informationTabs);
     informationDiv.appendChild(informationContent);

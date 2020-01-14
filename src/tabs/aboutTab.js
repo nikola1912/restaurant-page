@@ -1,6 +1,7 @@
 const aboutContent = () => {
     
     const aboutContent = document.createElement("div");
+    aboutContent.id = "aboutContent";
 
     aboutContent.innerHTML = 
         "Restoran Arabika Kruševac je mesto puno iznenađenja. Njihova ponuda hrane i pića ostaviće vas bez daha, a ono što je posebno važno je da u bogatom izboru specijaliteta kako domaće tako i interacionalne kuhinje, poslastica koje su popularne širom sveta, osvežavajućim voćnim napicima i ukusu domaće kafe možete uživati i u svom domu. Naručite online, Arabika dostava vama je na raspolaganju svakog dana."
